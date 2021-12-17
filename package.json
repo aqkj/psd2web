@@ -1,0 +1,26 @@
+{
+  "name": "ActivityDTHProject",
+  "version": "1.0.0",
+  "description": "DesignToWeb项目",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node --transpile-only ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zouzhiqiang/tslint-config": "^0.0.4",
+    "color-blend": "^3.0.0",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "psd": "^3.2.0"
+  }
+}
